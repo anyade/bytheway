@@ -1,0 +1,40 @@
+.error-msg {
+    position: relative;
+    margin: 15px 0 0;
+    padding: 10px 40px;
+    font-size: 1em;
+    text-align: center;
+    color: #d10641;
+    border: 1px solid #d10641;
+    border-radius: 4px;
+}
+
+.error-msg--photo {
+    margin: 0 10px;
+    padding: 10px 40px 10px 10px;
+    font-weight: 400;
+    background-color: #fff;
+}
+
+.error-msg__close {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+}
+
+.icon path {
+    fill: rgba(174, 9, 57, 0.73);
+}

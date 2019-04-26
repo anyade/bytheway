@@ -1,0 +1,50 @@
+.photos {
+    margin-top: 15px;
+}
+
+.photos__title {
+    margin: 0 0 20px 0;
+    font-size: 1.6em;
+}
+
+.photos__loading-text,
+.photos__error-text {
+    margin: 10px 0 22px;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.photos__error-text {
+    text-align: center;
+}
+
+.photos__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.photos__column {
+    margin: 0 6px;
+    display: flex;
+    flex-direction: column;
+}
+
+.photos__column:first-child {
+    margin-left: 0;
+}
+
+.photos__column:last-child {
+    margin-right: 0;
+}
+
+.photos__card {
+    margin-bottom: 12px;
+    width: auto;
+    flex-shrink: 0;
+}
+
+@media (min-width: 400px) {
+    .photos__title {
+        font-size: 2em;
+    }
+}

@@ -1,0 +1,18 @@
+export const AUTH_FAILED = 'AUTH_FAILED';
+export const AUTH_SUCCESS = 'AUTH_SUCCESS';
+export const HIDE_ERROR = 'HIDE_ERROR';
+export const LOG_OUT = 'LOG_OUT';
+
+export const FETCH_PHOTOS = 'FETCH_PHOTOS';
+export const FETCH_PHOTOS_SUCCESS = 'FETCH_PHOTOS_SUCCESS';
+export const FETCH_PHOTOS_FAIL = 'FETCH_PHOTOS_FAIL';
+export const CLEAR_PHOTOS = 'CLEAR_PHOTOS';
+
+export const SET_SEARCH_TERM = 'SET_SEARCH_TERM';
+export const RESET_SEARCH = 'RESET_SEARCH';
+
+export const FETCH_PHOTO_SUCCESS = 'FETCH_PHOTO_SUCCESS';
+export const CLEAR_ERROR = 'CLEAR_ERROR';
+
+export const LIKE_PHOTO = 'LIKE_PHOTO';
+export const UNLIKE_PHOTO = 'UNLIKE_PHOTO';

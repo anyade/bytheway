@@ -1,0 +1,57 @@
+.scroll-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 4%;
+    padding: 0 0 3px;
+    width: 45px;
+    height: 45px;
+    font-size: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+}
+
+.scroll-btn:hover,
+.scroll-btn:focus {
+    transform: scale(1.2);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.scroll-btn--hidden {
+    display: none;
+}
+
+.scroll-btn--shown {
+    display: block;
+}
+
+.scroll-btn__icon {
+    width: 30px;
+    height: 30px;
+}
+
+.scroll-btn__icon path {
+    fill: #737272;
+}
+
+@media (min-width: 1270px) {
+    .scroll-btn {
+        width: 60px;
+        height: 60px;
+        bottom: 3%;
+        background-color: #fff;
+        border: 1px solid #737272;
+    }
+
+    .scroll-btn:hover,
+    .scroll-btn:focus {
+        transform: scale(1.2);
+    }
+
+    .scroll-btn__icon {
+        width: 40px;
+        height: 40px;
+    }
+}

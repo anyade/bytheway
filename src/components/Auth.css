@@ -1,0 +1,93 @@
+.auth {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.auth__greeting {
+    margin: 0 10px 0 0;
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #fff;
+}
+
+.auth__button {
+    margin: 0 0 5px;
+}
+
+.button {
+    padding: 7px 10px 7px 40px;
+    font-family: inherit;
+    font-size: 1em;
+    font-weight: 700;
+    background-color: #fff;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+}
+
+.button--bordered {
+    border: 1px solid #000;
+}
+
+.button--svg-icon {
+    padding: 0;
+    font-size: 0;
+    opacity: 0.4;
+}
+
+.button--svg-icon:hover,
+.button--svg-icon:focus,
+.button--svg-icon:active {
+    opacity: 1;
+}
+
+.button--logged-out {
+    background-image: url('../img/unsplash_icon.png');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+.button--logged-in {
+    padding-left: 10px;
+    background-image: none;
+}
+
+.button__icon {
+    width: 25px;
+    height: 25px;
+}
+
+@media (min-width: 500px) {
+    .auth__button {
+        margin: 0;
+    }
+}
+
+@media (min-width: 550px) {
+    .auth__greeting {
+        margin: 0 15px 0 0;
+    }
+
+    .auth__button {
+        margin: 0 0 7px;
+    }
+}
+
+@media (min-width: 700px) {
+    .auth {
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: right;
+    }
+
+    .auth__greeting {
+        margin: 0 0 10px;
+    }
+
+    .auth__button {
+        margin: 0;
+    }
+}
